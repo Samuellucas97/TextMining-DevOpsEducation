@@ -9,7 +9,7 @@ This repository contains a aplication of Text Mining technique in DevOps Challen
 
 ## Problem description
 
-In previous work, It was realized  a systematic literature review where DevOps challenges and recommendations was found. Also, these challenges and recommendations was thematized in 7 themes: [assessment](#assessment), [curriculum](#curriculum), [tools](#tools), [classes preparation](#classes-preparation), [devops concepts](#devops-concepts), [environment setup](#environment-setup) and [pedagogy](#pedagogy). 
+In previous work, It was realized  a systematic literature review where DevOps challenges and recommendations was found. Also, these challenges and recommendations was manually thematized in 7 themes: [assessment](#assessment), [curriculum](#curriculum), [tools](#tools), [classes preparation](#classes-preparation), [devops concepts](#devops-concepts), [environment setup](#environment-setup) and [pedagogy](#pedagogy). **Therefore, as work propose, I wait to realize a thematization of theses challenges and recommendations using some models of classification**.
 
 
 #### Curriculum
