@@ -6,6 +6,8 @@ This repository contains a aplication of Text Mining technique in DevOps Challen
 ### Table of Content
 
 - [Problem description](#problem-description)
+- [Datasets description](#datasets-description)
+- [Preprocessing](#preprocessing)
 
 ## Problem description
 
@@ -56,4 +58,8 @@ of the environments used in the practices of students' exercises and projects.
 References to the subject of Pedagogy are related to a set of
 techniques, principles, methods and strategy for education and teaching.
 ```
+
+## Datasets description
+
+## Preprocessing
 
