@@ -1,0 +1,80 @@
+@RELATION challenges
+
+
+@ATTRIBUTE challenge string
+@ATTRIBUTE class {assessment,"classes preparation",curriculum,"devops concepts","environment setup",pedagogy,tools}
+
+@DATA
+"Teaching DevOps mindset is difficult to assess",assessment
+"to evaluate students' work using realistic environment used by is difficult",assessment
+"DevOps increases evaluation workload for teachers",assessment
+"students quit the course because of evaluation",assessment
+"assessement of previous students knowledge on agile was not good.",assessment
+"Automated assessment of programming exercises is hard.",assessment
+"the automated assessment elaboration take time",assessment
+"assessment of complex exercises were done with code review instead of system execution.",assessment
+"the ‘no deadline’ meant that the in-coming queue late in the course contained submissions from all iterations",assessment
+"the ‘unlimited submission’ strategy had the unfortunate consequence of sloppy submissions",assessment
+"Wasted much time with trivial errors unrelated to the actual exercise solution.",assessment
+"limited research in teaching DevOps","classes preparation"
+"There is little research into effective teaching pratices for incorporating DevOps into traditional software engineer courses","classes preparation"
+"lack of a proper and sound theory of DevOps","classes preparation"
+"DevOps has not yet standardized with the Software Engineerigin Body of Knowledge","classes preparation"
+"educators need to be conscious about when planning and conducting their teaching.","classes preparation"
+"the teaching staff had to invest a non-negligible time in the preparation of the course.","classes preparation"
+"the questionnaire may have been ambiguous in some parts, and possibly too generic.","classes preparation"
+"spend considerable amount of time collecting information on-site about the teams and technologies they used","classes preparation"
+"unable to collect information because of corporate privacy","classes preparation"
+"Bilateral previous communication with teams is not always possible or facilitated.","classes preparation"
+"DevOps still received minor attention in higher education.",curriculum
+"curricula is still outdated.",curriculum
+"courses teach “Dev” rather than “Ops”",curriculum
+"Devops mindset should be considered to fine tune curricula.",curriculum
+"Teaching DevOps is multidisciplinary and therefore crosscutting the traditional course boundaries.",curriculum
+"students prerequisite was insufficient",curriculum
+"high effort vs. course ECTS",curriculum
+"students quit the course because of workload",curriculum
+"The little time available to teaching complexities of CD and CI.",curriculum
+"It was shot time frame (two weeks) in 125 hours for students' workload.",curriculum
+"the time available to teach CD and CI is devoted to other concepts",curriculum
+"CD and related concepts are complex.","devops concepts"
+"students have difficulties in explaining IaC","devops concepts"
+"teach DevOps mindset / cultural","devops concepts"
+"trade-off between teaching practice (technological stacks) and theoric (principles and pillars)","devops concepts"
+"Universities need to explore feasible ways to keep up with the technological development in a way that allows them concentrate on fundamentals and underpinning theories.","devops concepts"
+"teachers need to learn operations.","devops concepts"
+"teachers need to learn dev and opt activities","devops concepts"
+"the main challenge was to find ways of emphasizing the Ops part of the approach.","devops concepts"
+"The mutation testing pipeline is not perceived by students as useful","devops concepts"
+"Creating a (semi) realistic environment for students to practice within is not trivial.","environment setup"
+"initial setup is complicated","environment setup"
+"DevOps requires complex and laborious architectures.","environment setup"
+"virtualization environments are laborious and complex.","environment setup"
+"maintaining the virtual environment increase costs","environment setup"
+"setup the tools and workflows increases the effort for educators.","environment setup"
+"contraints problems with cloud service and institutional security policies.","environment setup"
+"hard time to get into the project’s subject",pedagogy
+"very hard work to get the project done",pedagogy
+"The difficulty is to find realistic enough projects that students can still handle.",pedagogy
+"it is difficult to work with real project",pedagogy
+"one fixed project for all students could be boring.",pedagogy
+"difficult to see and control progress of the development of the project",pedagogy
+"It is very challenging to fairly and timely evaluate and provide feedback to students with diversified projects and limited resources of lecturers and teaching assistants..",pedagogy
+"Differences between academia and industry education: Learners initial state, Learners attitude, Pace of education, Expectation",pedagogy
+"Better bridges between education and work are thus needed.",pedagogy
+"toy examples are not enough to understand the subject",pedagogy
+"unbalance between practical and theoretical work",pedagogy
+"It was taught in accelerated mode and lacked the depth necessary for a clear understanding of the technologies.",pedagogy
+"how to set up the DevOps approach itself from scratch.",pedagogy
+"students not motivated.",pedagogy
+"Students’ motivation is crucial for a successful DevOps course",pedagogy
+"DevOps tools are complex.",tools
+"Many DevOps tools for teacher to learn.",tools
+"DevOps tools are new and time-consuming for a universitary lecturer.",tools
+"some devops tools involve learning curve.",tools
+"DevOps overhead of keeping up with the industrial state-of-the-art at universities is often too high.",tools
+"Avoid focusing only on tools.",tools
+"high computing power need can lead to resource-induced problems for computers of students.",tools
+"specific learning tool does not detect all problems.",tools
+"Git tool should be a prerequisite.",tools
+"Static analysis tool lacks of failures when detect possible issues.",tools
