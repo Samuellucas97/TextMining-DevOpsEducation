@@ -1,7 +1,8 @@
 @RELATION recommendations
 
+
 @ATTRIBUTE recommendation string
-@ATTRIBUTE class {assessment,"classes preparation",curriculum,"devops concepts","environment setup",pedagogy,tools}
+@ATTRIBUTE theme {assessment,"classes preparation",curriculum,"devops concepts","environment setup",pedagogy,tools}
 
 @DATA
 "emphasising more the learning aspect and give less importance to the final exam, maybe increasing the relevance of practical assignments.",assessment
@@ -40,11 +41,11 @@
 "The pipeline used was designed to help instructors introduce continuous integration and delivery into preexisting courses and allow students to visually understand the processes of continuous delivery and continuous integration.","devops concepts"
 "without our automated deployment pipeline the customer feedback would not have been possible in such an easy way.","devops concepts"
 "To cover the ”Ops” part we need to teach how to engineer innovative software systems that can react to changes and new needs properly, without compromising the effectiveness of the system and without imposing cumbersome a priori analyses.","devops concepts"
-"An application which is suitable for learners to serve as a means for setting up a deployment pipeline is presented.","devops concepts"
-"running the servers as a service is more straightforward on consecutive days","devops concepts"
+"An application which is suitable for learners to serve as a means for setting up a deployment pipeline is presented.","environment setup"
+"running the servers as a service is more straightforward on consecutive days","environment setup"
 "when setting up for independent labs, the instructor leads the class through the setup process.","environment setup"
 "automated scripts save significant time to setting up each student's repository.","environment setup"
-"Cloud DevOps platforms allow teams to take advantage of DevOps processes without having to invest their own effort in the integration of the necessary tools","devops concepts"
+"Cloud DevOps platforms allow teams to take advantage of DevOps processes without having to invest their own effort in the integration of the necessary tools","environment setup"
 "project-based teaching has proved to be successful as knowledge transfer mechanism.",pedagogy
 "project-based teaching, blended with traditional lectures and tutoring sessions has already proved to be successful as knowledge transfer mechanism.",pedagogy
 "Assigning the same project to every group",pedagogy
