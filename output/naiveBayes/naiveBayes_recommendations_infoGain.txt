@@ -1,0 +1,196 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     recommendations-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N1-L-stemmerweka.core.stemmers.SnowballStemmer -S english-stopwords-handlerweka.core.stopwords.WordsFromFile -stopwords /home/samuel/Desktop/TextMining-DevOpsEducation/englishStopWords.txt-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters ".,;:’”()?!/ -_><&#"-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 20
+Instances:    85
+Attributes:   21
+              set
+              assess
+              automat
+              devop
+              web
+              differ
+              deliveri
+              deriv
+              deliv
+              efficaci
+              cover
+              curricula
+              curriculum
+              earli
+              establish
+              emphas
+              iac
+              improv
+              hour
+              hybrid
+              theme
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                             Class
+Attribute               assessment classes preparation          curriculum     devops concepts   environment setup            pedagogy               tools
+                            (0.07)              (0.09)              (0.16)              (0.12)              (0.07)              (0.37)              (0.13)
+===========================================================================================================================================================
+set
+  mean                            0                   0                   0                   0              1.3798                   0                   0
+  std. dev.                  0.1278              0.1278              0.1278              0.1278              1.1266              0.1278              0.1278
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  0.7666              0.7666              0.7666              0.7666              0.7666              0.7666              0.7666
+
+assess
+  mean                       1.2198                   0                   0                   0                   0                   0                   0
+  std. dev.                  1.0341              0.1271              0.1271              0.1271              0.1271              0.1271              0.1271
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  0.7624              0.7624              0.7624              0.7624              0.7624              0.7624              0.7624
+
+automat
+  mean                            0                   0                   0                   0                   0                   0              0.6977
+  std. dev.                  0.0914              0.0914              0.0914              0.0914              0.0914              0.0914              0.9377
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  0.5482              0.5482              0.5482              0.5482              0.5482              0.5482              0.5482
+
+devop
+  mean                            0                   0              0.7467              0.2091              0.2788              0.2142              0.0634
+  std. dev.                  0.0166              0.0166              0.5971              0.4234              0.5575              0.4728              0.2003
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  0.0996              0.0996              0.0996              0.0996              0.0996              0.0996              0.0996
+
+web
+  mean                            0                   0                   0                   0                   0                   0              0.1844
+  std. dev.                   0.338               0.338               0.338               0.338               0.338               0.338              0.5831
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  2.0282              2.0282              2.0282              2.0282              2.0282              2.0282              2.0282
+
+differ
+  mean                            0                   0              0.1121                   0                   0              0.1426                   0
+  std. dev.                  0.1307              0.1307              0.4041              0.1307              0.1307              0.5615              0.1307
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  0.7845              0.7845              0.7845              0.7845              0.7845              0.7845              0.7845
+
+deliveri
+  mean                            0                   0              0.1893              0.5301                   0              0.1446                   0
+  std. dev.                  0.0884              0.0884              0.6826              1.0864              0.0884              0.4755              0.0884
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  0.5301              0.5301              0.5301              0.5301              0.5301              0.5301              0.5301
+
+deriv
+  mean                            0                   0              0.2169                   0                   0                   0                   0
+  std. dev.                   0.506               0.506              0.7819               0.506               0.506               0.506               0.506
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                   3.036               3.036               3.036               3.036               3.036               3.036               3.036
+
+deliv
+  mean                            0                   0              0.2386                   0                   0                   0                   0
+  std. dev.                  0.5568              0.5568              0.8604              0.5568              0.5568              0.5568              0.5568
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  3.3409              3.3409              3.3409              3.3409              3.3409              3.3409              3.3409
+
+efficaci
+  mean                            0                   0              0.1925                   0                   0                   0                   0
+  std. dev.                  0.4491              0.4491               0.694              0.4491              0.4491              0.4491              0.4491
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  2.6946              2.6946              2.6946              2.6946              2.6946              2.6946              2.6946
+
+cover
+  mean                            0                   0               0.187              0.1309                   0                   0                   0
+  std. dev.                  0.2182              0.2182              0.6744              0.3928              0.2182              0.2182              0.2182
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  1.3093              1.3093              1.3093              1.3093              1.3093              1.3093              1.3093
+
+curricula
+  mean                            0                   0              0.2169                   0                   0                   0                   0
+  std. dev.                   0.506               0.506              0.7819               0.506               0.506               0.506               0.506
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                   3.036               3.036               3.036               3.036               3.036               3.036               3.036
+
+curriculum
+  mean                            0                   0              0.5072                   0                   0                   0                   0
+  std. dev.                  0.3945              0.3945              1.3205              0.3945              0.3945              0.3945              0.3945
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                   2.367               2.367               2.367               2.367               2.367               2.367               2.367
+
+earli
+  mean                            0                   0               0.115                   0                   0                   0                   0
+  std. dev.                  0.2683              0.2683              0.4146              0.2683              0.2683              0.2683              0.2683
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  1.6098              1.6098              1.6098              1.6098              1.6098              1.6098              1.6098
+
+establish
+  mean                            0                   0              0.2123                   0                   0              0.0901                   0
+  std. dev.                  0.2477              0.2477              0.7654              0.2477              0.2477              0.5095              0.2477
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                   1.486               1.486               1.486               1.486               1.486               1.486               1.486
+
+emphas
+  mean                            0                   0              0.0821                   0                   0              0.0697                   0
+  std. dev.                  0.1916              0.1916              0.2961              0.1916              0.1916              0.3941              0.1916
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  1.1496              1.1496              1.1496              1.1496              1.1496              1.1496              1.1496
+
+iac
+  mean                            0                   0              0.2216                   0                   0                   0                   0
+  std. dev.                  0.5171              0.5171               0.799              0.5171              0.5171              0.5171              0.5171
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  3.1026              3.1026              3.1026              3.1026              3.1026              3.1026              3.1026
+
+improv
+  mean                            0                   0              0.2905                   0                   0                   0                   0
+  std. dev.                  0.6778              0.6778              1.0474              0.6778              0.6778              0.6778              0.6778
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  4.0669              4.0669              4.0669              4.0669              4.0669              4.0669              4.0669
+
+hour
+  mean                            0                   0              0.2279                   0                   0                   0                   0
+  std. dev.                  0.5318              0.5318              0.8218              0.5318              0.5318              0.5318              0.5318
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                   3.191               3.191               3.191               3.191               3.191               3.191               3.191
+
+hybrid
+  mean                            0                   0              0.2796                   0                   0                   0                   0
+  std. dev.                  0.6524              0.6524              1.0081              0.6524              0.6524              0.6524              0.6524
+  weight sum                      5                   7                  14                  10                   5                  33                  11
+  precision                  3.9143              3.9143              3.9143              3.9143              3.9143              3.9143              3.9143
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          26               30.5882 %
+Incorrectly Classified Instances        59               69.4118 %
+Kappa statistic                          0.188 
+Mean absolute error                      0.1992
+Root mean squared error                  0.3927
+Relative absolute error                 88.6588 %
+Root relative squared error            117.4962 %
+Total Number of Instances               85     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,600    0,000    1,000      0,600    0,750      0,765    0,800     0,638     assessment
+                 1,000    0,526    0,146      1,000    0,255      0,263    0,683     0,131     classes preparation
+                 0,143    0,056    0,333      0,143    0,200      0,125    0,584     0,319     curriculum
+                 0,200    0,053    0,333      0,200    0,250      0,184    0,527     0,187     devops concepts
+                 0,600    0,000    1,000      0,600    0,750      0,765    0,688     0,626     environment setup
+                 0,152    0,192    0,333      0,152    0,208      -0,052   0,588     0,453     pedagogy
+                 0,364    0,000    1,000      0,364    0,533      0,576    0,706     0,486     tools
+Weighted Avg.    0,306    0,134    0,483      0,306    0,321      0,208    0,621     0,399     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  3  2  0  0  0  0  0 |  a = assessment
+  0  7  0  0  0  0  0 |  b = classes preparation
+  0  4  2  2  0  6  0 |  c = curriculum
+  0  6  0  2  0  2  0 |  d = devops concepts
+  0  1  0  0  3  1  0 |  e = environment setup
+  0 22  4  2  0  5  0 |  f = pedagogy
+  0  6  0  0  0  1  4 |  g = tools
+
