@@ -1,0 +1,478 @@
+@relation 'recommendations-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N1-L-stemmerweka.core.stemmers.SnowballStemmer -S english-stopwords-handlerweka.core.stopwords.WordsFromFile -stopwords /home/samuel/Desktop/TextMining-DevOpsEducation/englishStopWords.txt-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \".,;:’”()?!/ -_><&#\"-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,1-weka.filters.unsupervised.instance.Resample-S1-Z90.0-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0'
+
+@attribute aspect numeric
+@attribute assess numeric
+@attribute assign numeric
+@attribute autom numeric
+@attribute beginn numeric
+@attribute case numeric
+@attribute chain numeric
+@attribute choic numeric
+@attribute configur numeric
+@attribute context numeric
+@attribute continu numeric
+@attribute control numeric
+@attribute cours numeric
+@attribute deploy numeric
+@attribute design numeric
+@attribute emphasis numeric
+@attribute evolv numeric
+@attribute exam numeric
+@attribute extern numeric
+@attribute file numeric
+@attribute final numeric
+@attribute fine numeric
+@attribute give numeric
+@attribute grain numeric
+@attribute import numeric
+@attribute increas numeric
+@attribute input numeric
+@attribute inspect numeric
+@attribute interfac numeric
+@attribute learn numeric
+@attribute log numeric
+@attribute mayb numeric
+@attribute mechan numeric
+@attribute metric numeric
+@attribute monitor numeric
+@attribute output numeric
+@attribute practic numeric
+@attribute precheck numeric
+@attribute process numeric
+@attribute project numeric
+@attribute properti numeric
+@attribute push numeric
+@attribute relev numeric
+@attribute runtim numeric
+@attribute servic numeric
+@attribute special numeric
+@attribute student numeric
+@attribute submiss numeric
+@attribute system numeric
+@attribute teach numeric
+@attribute techniqu numeric
+@attribute technolog numeric
+@attribute test numeric
+@attribute tool numeric
+@attribute user numeric
+@attribute valid numeric
+@attribute verif numeric
+@attribute viabl numeric
+@attribute work numeric
+@attribute advanc numeric
+@attribute aim numeric
+@attribute analysi numeric
+@attribute attribut numeric
+@attribute audienc numeric
+@attribute bloom numeric
+@attribute clarifi numeric
+@attribute concern numeric
+@attribute data numeric
+@attribute decid numeric
+@attribute depth numeric
+@attribute develop numeric
+@attribute direct numeric
+@attribute engin numeric
+@attribute environ numeric
+@attribute inform numeric
+@attribute initi numeric
+@attribute insight numeric
+@attribute interest numeric
+@attribute lectur numeric
+@attribute materi numeric
+@attribute paper numeric
+@attribute peopl numeric
+@attribute possibl numeric
+@attribute present numeric
+@attribute problem numeric
+@attribute product numeric
+@attribute progress numeric
+@attribute qualiti numeric
+@attribute questionnair numeric
+@attribute refer numeric
+@attribute relat numeric
+@attribute reveal numeric
+@attribute review numeric
+@attribute role numeric
+@attribute site numeric
+@attribute softwar numeric
+@attribute staff numeric
+@attribute swebok numeric
+@attribute talk numeric
+@attribute taxonomi numeric
+@attribute team numeric
+@attribute technic numeric
+@attribute theoret numeric
+@attribute track numeric
+@attribute uncov numeric
+@attribute 125 numeric
+@attribute achiev numeric
+@attribute adapt numeric
+@attribute addit numeric
+@attribute address numeric
+@attribute algorithm numeric
+@attribute amount numeric
+@attribute approach numeric
+@attribute architectur numeric
+@attribute backbon numeric
+@attribute background numeric
+@attribute basic numeric
+@attribute becaus numeric
+@attribute befor numeric
+@attribute build numeric
+@attribute cd numeric
+@attribute ci numeric
+@attribute clear numeric
+@attribute complement numeric
+@attribute connect numeric
+@attribute coupl numeric
+@attribute cover numeric
+@attribute curricula numeric
+@attribute curriculum numeric
+@attribute deliv numeric
+@attribute deliveri numeric
+@attribute deriv numeric
+@attribute devop numeric
+@attribute differ numeric
+@attribute earli numeric
+@attribute efficaci numeric
+@attribute emphas numeric
+@attribute establish numeric
+@attribute everi numeric
+@attribute focus numeric
+@attribute form numeric
+@attribute happen numeric
+@attribute hour numeric
+@attribute hybrid numeric
+@attribute iac numeric
+@attribute improv numeric
+@attribute instructor numeric
+@attribute interrel numeric
+@attribute introduc numeric
+@attribute kind numeric
+@attribute knowledg numeric
+@attribute lab numeric
+@attribute make numeric
+@attribute motiv numeric
+@attribute necessari numeric
+@attribute note numeric
+@attribute op numeric
+@attribute oper numeric
+@attribute option numeric
+@attribute outlin numeric
+@attribute part numeric
+@attribute philosophi numeric
+@attribute prerequisit numeric
+@attribute proper numeric
+@attribute requir numeric
+@attribute se numeric
+@attribute setup numeric
+@attribute side numeric
+@attribute skill numeric
+@attribute strengthen numeric
+@attribute summer numeric
+@attribute teacher numeric
+@attribute theori numeric
+@attribute therefor numeric
+@attribute time numeric
+@attribute treat numeric
+@attribute typic numeric
+@attribute week numeric
+@attribute analys numeric
+@attribute appli numeric
+@attribute author numeric
+@attribute chang numeric
+@attribute compromis numeric
+@attribute concept numeric
+@attribute cumbersom numeric
+@attribute custom numeric
+@attribute describ numeric
+@attribute earlier numeric
+@attribute easi numeric
+@attribute educ numeric
+@attribute effect numeric
+@attribute experi numeric
+@attribute explain numeric
+@attribute feedback numeric
+@attribute frame numeric
+@attribute fundament numeric
+@attribute higher numeric
+@attribute illustr numeric
+@attribute impos numeric
+@attribute innov numeric
+@attribute integr numeric
+@attribute intensifi numeric
+@attribute multidisciplinari numeric
+@attribute onli numeric
+@attribute pedagog numeric
+@attribute pillar numeric
+@attribute pipelin numeric
+@attribute preexist numeric
+@attribute principl numeric
+@attribute priori numeric
+@attribute react numeric
+@attribute realiz numeric
+@attribute scratch numeric
+@attribute share numeric
+@attribute togeth numeric
+@attribute understand numeric
+@attribute valu numeric
+@attribute visual numeric
+@attribute advantag numeric
+@attribute applic numeric
+@attribute class numeric
+@attribute cloud numeric
+@attribute consecut numeric
+@attribute day numeric
+@attribute effort numeric
+@attribute independ numeric
+@attribute invest numeric
+@attribute lead numeric
+@attribute learner numeric
+@attribute platform numeric
+@attribute repositori numeric
+@attribute run numeric
+@attribute save numeric
+@attribute script numeric
+@attribute serv numeric
+@attribute server numeric
+@attribute set numeric
+@attribute signific numeric
+@attribute straightforward numeric
+@attribute suitabl numeric
+@attribute activ numeric
+@attribute agil numeric
+@attribute alreadi numeric
+@attribute ambassador numeric
+@attribute assist numeric
+@attribute asynchron numeric
+@attribute atmospher numeric
+@attribute base numeric
+@attribute blend numeric
+@attribute bring numeric
+@attribute busi numeric
+@attribute campus numeric
+@attribute candid numeric
+@attribute center numeric
+@attribute classroom numeric
+@attribute collabor numeric
+@attribute command numeric
+@attribute common numeric
+@attribute communic numeric
+@attribute consist numeric
+@attribute creat numeric
+@attribute cross numeric
+@attribute defin numeric
+@attribute descript numeric
+@attribute detail numeric
+@attribute devis numeric
+@attribute divers numeric
+@attribute driven numeric
+@attribute easygo numeric
+@attribute encourag numeric
+@attribute engag numeric
+@attribute execut numeric
+@attribute express numeric
+@attribute factor numeric
+@attribute favour numeric
+@attribute flip numeric
+@attribute frontal numeric
+@attribute function numeric
+@attribute good numeric
+@attribute graphic numeric
+@attribute group numeric
+@attribute ideal numeric
+@attribute implement numeric
+@attribute includ numeric
+@attribute industri numeric
+@attribute instruct numeric
+@attribute interact numeric
+@attribute iter numeric
+@attribute jenkin numeric
+@attribute key numeric
+@attribute life numeric
+@attribute line numeric
+@attribute manag numeric
+@attribute met numeric
+@attribute method numeric
+@attribute minim numeric
+@attribute mix numeric
+@attribute object numeric
+@attribute offlin numeric
+@attribute onlin numeric
+@attribute open numeric
+@attribute organ numeric
+@attribute outcom numeric
+@attribute paramount numeric
+@attribute partner numeric
+@attribute pbl numeric
+@attribute peer numeric
+@attribute perform numeric
+@attribute person numeric
+@attribute primari numeric
+@attribute program numeric
+@attribute prove numeric
+@attribute provid numeric
+@attribute real numeric
+@attribute realist numeric
+@attribute releas numeric
+@attribute repres numeric
+@attribute request numeric
+@attribute revis numeric
+@attribute session numeric
+@attribute simul numeric
+@attribute specif numeric
+@attribute step numeric
+@attribute style numeric
+@attribute subject numeric
+@attribute success numeric
+@attribute support numeric
+@attribute tackl numeric
+@attribute taught numeric
+@attribute term numeric
+@attribute tradit numeric
+@attribute train numeric
+@attribute transfer numeric
+@attribute tri numeric
+@attribute trust numeric
+@attribute turn numeric
+@attribute tutor numeric
+@attribute type numeric
+@attribute univers numeric
+@attribute virtual numeric
+@attribute workflow numeric
+@attribute written numeric
+@attribute “small numeric
+@attribute abl numeric
+@attribute alecc numeric
+@attribute alecss numeric
+@attribute amazon numeric
+@attribute architect numeric
+@attribute assembl numeric
+@attribute attent numeric
+@attribute automat numeric
+@attribute aw numeric
+@attribute becom numeric
+@attribute begin numeric
+@attribute check numeric
+@attribute choos numeric
+@attribute code numeric
+@attribute collect numeric
+@attribute comput numeric
+@attribute consum numeric
+@attribute correct numeric
+@attribute demand numeric
+@attribute detect numeric
+@attribute docker numeric
+@attribute dure numeric
+@attribute facilit numeric
+@attribute familiar numeric
+@attribute gain numeric
+@attribute generat numeric
+@attribute high numeric
+@attribute identifi numeric
+@attribute individu numeric
+@attribute led numeric
+@attribute load numeric
+@attribute manual numeric
+@attribute meant numeric
+@attribute member numeric
+@attribute paid numeric
+@attribute port numeric
+@attribute power numeric
+@attribute quick numeric
+@attribute reduc numeric
+@attribute remedi numeric
+@attribute report numeric
+@attribute result numeric
+@attribute simpl numeric
+@attribute stage numeric
+@attribute start numeric
+@attribute state numeric
+@attribute static numeric
+@attribute stop numeric
+@attribute submit numeric
+@attribute tas numeric
+@attribute themselv numeric
+@attribute version numeric
+@attribute warn numeric
+@attribute web numeric
+@attribute theme {assessment,'classes preparation',curriculum,'devops concepts','environment setup',pedagogy,tools}
+
+@data
+{12 0.903966,128 1,132 1,163 1,397 curriculum}
+{14 0.704913,46 0.693807,174 0.978139,185 0.92962,193 1,312 0.713962,350 0.937544,368 1,383 1,392 1,397 tools}
+{12 0.603349,53 1,139 1,183 1,197 1,203 1,397 'devops concepts'}
+{10 1,12 0.375765,14 0.549999,38 0.765885,46 0.541334,130 1,146 0.765885,148 0.723305,200 1,206 1,207 1,215 1,217 1,397 'devops concepts'}
+{49 0.757856,58 0.667465,100 0.904738,108 1,148 0.871281,244 0.652081,261 0.904738,277 1,295 1,340 1,397 pedagogy}
+{3 0.726048,46 0.709313,174 1,230 1,232 1,233 1,236 1,237 1,397 'environment setup'}
+{39 0.818321,46 0.971769,75 1,263 1,264 1,312 1,397 pedagogy}
+{24 1,59 1,63 1,74 1,82 1,397 'classes preparation'}
+{61 0.88961,67 0.889611,69 1,77 1,84 1,86 1,91 1,103 1,397 'classes preparation'}
+{12 0.411175,70 0.5974,108 0.573132,109 1,115 1,132 0.454856,133 1,134 1,136 0.590898,140 1,141 1,149 1,156 1,160 1,164 1,165 1,171 0.765685,175 1,176 1,397 curriculum}
+{36 0.410998,39 0.417309,41 1,46 0.495562,53 0.903649,132 0.380537,154 0.606165,326 1,343 1,347 1,348 1,352 1,359 1,370 1,388 1,390 1,397 tools}
+{39 0.606931,100 1,261 1,273 1,289 1,292 1,315 1,325 0.837653,397 pedagogy}
+{72 1,95 1,114 1,119 1,127 1,131 1,132 0.541246,161 1,397 curriculum}
+{14 0.704913,46 0.693807,174 0.978139,185 0.92962,193 1,312 0.713962,350 0.937544,368 1,383 1,392 1,397 tools}
+{39 0.623171,53 0.851392,61 1,67 1,350 1,357 1,361 1,365 1,397 tools}
+{3 0.726048,46 0.709313,174 1,230 1,232 1,233 1,236 1,237 1,397 'environment setup'}
+{12 0.669232,14 0.979539,46 0.964107,270 1,274 1,286 1,397 pedagogy}
+{12 0.669232,14 0.979539,46 0.964107,270 1,274 1,286 1,397 pedagogy}
+{36 1,132 0.925885,151 1,328 1,397 pedagogy}
+{49 0.757856,58 0.667465,100 0.904738,108 1,148 0.871281,244 0.652081,261 0.904738,277 1,295 1,340 1,397 pedagogy}
+{12 0.605651,106 1,152 1,153 1,158 1,397 curriculum}
+{44 1,222 1,223 0.720676,231 1,235 1,238 1,397 'environment setup'}
+{3 0.737302,12 1,116 1,120 1,121 1,126 1,132 0.553118,144 1,397 curriculum}
+{3 0.726048,46 0.709313,174 1,230 1,232 1,233 1,236 1,237 1,397 'environment setup'}
+{39 0.432016,46 0.513025,100 0.711803,344 1,350 0.693254,354 1,356 1,360 1,371 1,376 1,380 1,384 1,391 1,397 tools}
+{12 0.683211,14 1,80 1,83 1,89 1,397 'classes preparation'}
+{46 0.815866,132 0.626496,154 0.997957,173 0.997957,192 1,212 1,216 1,397 'devops concepts'}
+{61 0.88961,67 0.889611,69 1,77 1,84 1,86 1,91 1,103 1,397 'classes preparation'}
+{12 0.853346,45 1,46 0.77563,129 1,132 0.5956,162 1,168 1,397 curriculum}
+{44 0.628477,52 1,73 0.744486,85 1,221 1,346 1,351 1,358 1,369 1,378 1,379 1,382 1,396 1,397 tools}
+{12 0.903966,128 1,132 1,163 1,397 curriculum}
+{25 1,70 1,83 0.635605,135 1,147 1,150 0.72707,157 1,167 1,169 1,397 curriculum}
+{3 0.737302,12 1,116 1,120 1,121 1,126 1,132 0.553118,144 1,397 curriculum}
+{39 0.368477,46 0.437572,49 0.508552,53 0.503423,60 1,62 1,65 1,66 1,70 0.699454,72 0.620804,73 0.69184,75 0.450284,78 1,79 1,85 0.929286,87 1,90 0.549339,92 1,93 1,95 0.620804,96 1,102 0.4209,397 'classes preparation'}
+{36 0.862211,102 1,223 1,296 1,397 pedagogy}
+{29 0.864218,84 0.982471,112 1,132 0.496667,204 1,247 0.751712,294 1,305 1,324 1,327 1,397 pedagogy}
+{3 0.726048,46 0.709313,174 1,230 1,232 1,233 1,236 1,237 1,397 'environment setup'}
+{36 0.684005,278 1,322 1,335 1,342 1,397 pedagogy}
+{12 0.903966,128 1,132 1,163 1,397 curriculum}
+{45 0.536259,61 0.890845,240 0.81715,349 1,364 1,377 1,386 1,389 1,397 tools}
+{12 0.694147,39 0.842094,46 1,244 1,267 1,308 1,397 pedagogy}
+{171 1,345 1,350 0.659568,354 0.951409,362 1,373 1,374 1,381 1,395 1,397 tools}
+{44 0.628477,52 1,73 0.744486,85 1,221 1,346 1,351 1,358 1,369 1,378 1,379 1,382 1,396 1,397 tools}
+{39 0.623171,53 0.851392,61 1,67 1,350 1,357 1,361 1,365 1,397 tools}
+{14 0.75828,39 0.628483,185 1,251 1,255 1,284 1,301 1,304 1,316 1,397 pedagogy}
+{10 0.38347,13 1,14 0.421815,46 0.41517,72 0.589021,74 0.461669,95 0.589021,113 1,130 0.483885,151 0.344325,206 0.766939,250 1,262 1,272 1,282 1,287 1,290 1,300 1,313 1,320 1,321 1,326 0.837776,329 1,397 pedagogy}
+{12 0.694147,39 0.842094,46 1,244 1,267 1,308 1,397 pedagogy}
+{9 1,38 0.894834,49 0.735071,73 1,136 1,294 0.977862,307 1,310 1,314 1,339 1,397 pedagogy}
+{51 1,118 1,240 1,366 1,387 1,393 1,397 tools}
+{90 1,101 1,122 0.974321,263 0.819683,293 1,297 1,397 pedagogy}
+{12 0.669232,14 0.979539,46 0.964107,270 1,274 1,286 1,397 pedagogy}
+{3 1,37 1,46 0.976951,47 1,58 1}
+{32 1,39 0.724562,49 1,150 1,247 1,311 1,325 1,332 1,397 pedagogy}
+{171 1,345 1,350 0.659568,354 0.951409,362 1,373 1,374 1,381 1,395 1,397 tools}
+{12 0.605651,106 1,152 1,153 1,158 1,397 curriculum}
+{12 0.903966,128 1,132 1,163 1,397 curriculum}
+{12 0.411175,70 0.5974,108 0.573132,109 1,115 1,132 0.454856,133 1,134 1,136 0.590898,140 1,141 1,149 1,156 1,160 1,164 1,165 1,171 0.765685,175 1,176 1,397 curriculum}
+{39 0.818321,46 0.971769,75 1,263 1,264 1,312 1,397 pedagogy}
+{25 1,70 1,83 0.635605,135 1,147 1,150 0.72707,157 1,167 1,169 1,397 curriculum}
+{12 0.56749,122 1,124 1,132 0.627778,137 1,138 0.688442,154 1,173 1,397 curriculum}
+{12 0.694147,39 0.842094,46 1,244 1,267 1,308 1,397 pedagogy}
+{32 1,39 0.724562,49 1,150 1,247 1,311 1,325 1,332 1,397 pedagogy}
+{39 0.368477,46 0.437572,49 0.508552,53 0.503423,60 1,62 1,65 1,66 1,70 0.699454,72 0.620804,73 0.69184,75 0.450284,78 1,79 1,85 0.929286,87 1,90 0.549339,92 1,93 1,95 0.620804,96 1,102 0.4209,397 'classes preparation'}
+{3 1,37 1,46 0.976951,47 1,58 1}
+{38 1,146 1,151 0.586197,166 1,220 1,225 1,227 1,236 0.996468,397 'environment setup'}
+{36 1,132 0.925885,151 1,328 1,397 pedagogy}
+{12 0.823405,29 1,53 0.861046,107 1,110 1,118 0.927676,132 0.574702,148 1,172 1,397 curriculum}
+{39 0.432016,46 0.513025,100 0.711803,344 1,350 0.693254,354 1,356 1,360 1,371 1,376 1,380 1,384 1,391 1,397 tools}
+{0 1,2 0.470099,15 1,17 1,20 1,22 1,24 0.620775,25 0.892356,29 0.745909,31 1,36 0.46299,42 1}
+{9 1,38 0.894834,49 0.735071,73 1,136 1,294 0.977862,307 1,310 1,314 1,339 1,397 pedagogy}
+{39 0.432016,46 0.513025,100 0.711803,344 1,350 0.693254,354 1,356 1,360 1,371 1,376 1,380 1,384 1,391 1,397 tools}
+{32 1,39 0.724562,49 1,150 1,247 1,311 1,325 1,332 1,397 pedagogy}
+{12 0.694147,39 0.842094,46 1,244 1,267 1,308 1,397 pedagogy}
+{2 1,39 1,138 1,280 1,397 pedagogy}
+{90 1,101 1,122 0.974321,263 0.819683,293 1,297 1,397 pedagogy}
+{28 1,240 0.83018,256 1,264 0.689218,279 1,285 1,291 1,312 0.689217,397 pedagogy}
