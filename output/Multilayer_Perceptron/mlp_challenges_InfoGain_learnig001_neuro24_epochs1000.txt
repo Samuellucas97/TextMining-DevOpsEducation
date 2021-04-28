@@ -1,0 +1,832 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.8 -N 1000 -V 0 -S 0 -E 20 -H 24
+Relation:     challenges-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N1-L-stemmerweka.core.stemmers.SnowballStemmer -S english-stopwords-handlerweka.core.stopwords.WordsFromFile -stopwords /home/samuel/Desktop/TextMining-DevOpsEducation/englishStopWords.txt-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters ".,;:’”()?!/ -_><&#"-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 20
+Instances:    73
+Attributes:   21
+              tool
+              project
+              assess
+              universitari
+              proper
+              privaci
+              research
+              prepar
+              questionnair
+              softwar
+              site
+              possibl
+              staff
+              spend
+              sound
+              pratic
+              part
+              plan
+              facilit
+              generic
+              class
+Test mode:    2-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5937592300243245
+    Node 7    -0.5611364973427432
+    Node 8    0.39375118500384665
+    Node 9    -0.1081376247479807
+    Node 10    -1.2808665290996548
+    Node 11    0.90169703418523
+    Node 12    0.37297517563551347
+    Node 13    0.9420397536454962
+    Node 14    1.1246294636086112
+    Node 15    -1.2202798245063748
+    Node 16    -1.2748324402870492
+    Node 17    -1.3156602971960634
+    Node 18    -0.6448773615926086
+    Node 19    0.21353261442790109
+    Node 20    1.0723082296241293
+    Node 21    -1.5704568464018718
+    Node 22    -0.9880372627976801
+    Node 23    -0.2591156223487953
+    Node 24    0.683242615229191
+    Node 25    1.3081888261312598
+    Node 26    -1.505416057994324
+    Node 27    -1.2213663828846697
+    Node 28    0.5748475830001994
+    Node 29    -1.0505624765798856
+    Node 30    -1.4729431657943994
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.2050420785605228
+    Node 7    -1.9159152128506174
+    Node 8    -3.406310967896664
+    Node 9    0.1884736947307163
+    Node 10    -0.33632057646072333
+    Node 11    2.4392382194950026
+    Node 12    -1.4401630915225394
+    Node 13    1.4365456183902796
+    Node 14    0.6137652438922182
+    Node 15    1.4895789820887493
+    Node 16    -0.7442044744030254
+    Node 17    -0.04027362406464245
+    Node 18    -0.3571132798503121
+    Node 19    -0.0692398997661676
+    Node 20    -2.765704315125915
+    Node 21    0.2968919927255772
+    Node 22    0.2014112101539907
+    Node 23    -0.8627184580492393
+    Node 24    1.2142609112053036
+    Node 25    -1.8358092930303924
+    Node 26    0.2573044848501629
+    Node 27    2.783433642998223
+    Node 28    1.3806344501744316
+    Node 29    2.6849178770845112
+    Node 30    0.26310682207383523
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.014527876837468416
+    Node 7    0.20238877341020575
+    Node 8    -0.4548382155331485
+    Node 9    -0.5160437557020349
+    Node 10    -0.6963069578363683
+    Node 11    -0.6591880162938961
+    Node 12    -0.04187054789733776
+    Node 13    -0.5537726638810733
+    Node 14    -1.0438106315278421
+    Node 15    -0.8927207865009195
+    Node 16    -0.5370297967007372
+    Node 17    -0.572177335832142
+    Node 18    -0.5513815038793681
+    Node 19    0.6431006635129212
+    Node 20    0.40428335742980653
+    Node 21    -0.8818397785571691
+    Node 22    0.553720853201079
+    Node 23    0.08511727982986253
+    Node 24    -0.7337192593945617
+    Node 25    -1.165307937214982
+    Node 26    -1.1966164034028712
+    Node 27    -0.4056680983525036
+    Node 28    -0.400541654991961
+    Node 29    -0.6453899019426605
+    Node 30    -0.8664863544296197
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.16527193472340146
+    Node 7    0.38252813801104757
+    Node 8    -1.0916374377291311
+    Node 9    -0.4901177244081696
+    Node 10    -0.6448601924688135
+    Node 11    0.00679503135795963
+    Node 12    0.07104500698389372
+    Node 13    -0.9128012893800367
+    Node 14    -1.1434824360269367
+    Node 15    -1.2079112941367638
+    Node 16    0.29178810563904833
+    Node 17    -0.6770896303819478
+    Node 18    -0.4120641422570214
+    Node 19    0.46615723902178025
+    Node 20    0.32534023655732247
+    Node 21    -0.9116172277217834
+    Node 22    0.2707863568679602
+    Node 23    0.23409810104095563
+    Node 24    -1.029910701425495
+    Node 25    -1.162550561091512
+    Node 26    -1.0223130716402735
+    Node 27    0.11726137962040185
+    Node 28    0.04478788542739671
+    Node 29    -1.0590513131814518
+    Node 30    -0.8521537225688813
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.1977995947160016
+    Node 7    0.2218622029387814
+    Node 8    -0.2915813768472816
+    Node 9    -0.32928548962278875
+    Node 10    -0.44808128241261
+    Node 11    -0.637703782883617
+    Node 12    -0.179563539539203
+    Node 13    -0.5923105797605138
+    Node 14    -0.6051654608935081
+    Node 15    -0.3873176318637196
+    Node 16    -0.1311150840264309
+    Node 17    -0.2794729507579767
+    Node 18    -0.33503157969794267
+    Node 19    -0.05540963758089189
+    Node 20    0.016658053318323533
+    Node 21    -0.5317150520128046
+    Node 22    -0.0017026246211287515
+    Node 23    -0.09694027861179634
+    Node 24    -0.5038942290044792
+    Node 25    -0.7403550719424616
+    Node 26    -0.7605478904356827
+    Node 27    -0.48249335825847095
+    Node 28    -0.3573859562344389
+    Node 29    -0.4797852941790646
+    Node 30    -0.33469750373245677
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.6205673737071292
+    Node 7    -0.433856225063398
+    Node 8    0.5381570119781924
+    Node 9    -0.31610778247256455
+    Node 10    1.2036552475692945
+    Node 11    -1.6001966351557146
+    Node 12    -0.3353641409779711
+    Node 13    -0.8750514470062752
+    Node 14    -1.3383503180340126
+    Node 15    -1.6733419169532247
+    Node 16    -0.6375333296698645
+    Node 17    -0.5135145278938671
+    Node 18    -0.08141879486845752
+    Node 19    0.544609573347349
+    Node 20    -0.042104338405862994
+    Node 21    0.8455217151966784
+    Node 22    1.3829482380482938
+    Node 23    0.020955541011345193
+    Node 24    -1.4851361866050492
+    Node 25    0.3491839393306621
+    Node 26    1.6555208312683882
+    Node 27    -0.4695889457606973
+    Node 28    -1.5411117529222924
+    Node 29    -1.0240483223703374
+    Node 30    -0.84340569978323
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.256079725142758
+    Node 7    0.7687284662651314
+    Node 8    0.7378405507399635
+    Node 9    -0.02010277200808745
+    Node 10    -0.6190560441021673
+    Node 11    -1.427542507880303
+    Node 12    -0.18180301890642064
+    Node 13    -0.9332915657141608
+    Node 14    0.36888100184101774
+    Node 15    1.6961378938708742
+    Node 16    1.2247419124963268
+    Node 17    1.0820841507940357
+    Node 18    0.19995392829622546
+    Node 19    -1.9991671453427597
+    Node 20    -0.3943180653075514
+    Node 21    -0.19180676935787688
+    Node 22    -2.080163694049077
+    Node 23    -0.5084653989514866
+    Node 24    0.17048036678339282
+    Node 25    -0.5342377298589621
+    Node 26    -0.8382041354834908
+    Node 27    -1.5988997270422483
+    Node 28    -0.4405432918505082
+    Node 29    0.2103884729232039
+    Node 30    1.6682375801488651
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.5169064277358812
+    Attrib tool    1.2965876827825205
+    Attrib project    0.31013960210417196
+    Attrib assess    -0.22378361182778672
+    Attrib universitari    0.643533216154839
+    Attrib proper    -0.25142000934581626
+    Attrib privaci    -0.3924680570910565
+    Attrib research    -0.4712807934156002
+    Attrib prepar    -0.2587720774086198
+    Attrib questionnair    -0.07370396351963145
+    Attrib softwar    -0.4497751061330456
+    Attrib site    -0.21327353338634134
+    Attrib possibl    -0.2601400117765379
+    Attrib staff    -0.2573037293183836
+    Attrib spend    -0.18956855135600628
+    Attrib sound    -0.23374292506460637
+    Attrib pratic    0.11777766484865104
+    Attrib part    0.2781921995962133
+    Attrib plan    -0.40565359263289047
+    Attrib facilit    -0.271463083649032
+    Attrib generic    -0.06428234043027678
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.6894377808031857
+    Attrib tool    1.7360396784567427
+    Attrib project    1.638080018623191
+    Attrib assess    1.3585650776574818
+    Attrib universitari    0.8571632538780057
+    Attrib proper    -0.33341594237066435
+    Attrib privaci    -0.7204269226056749
+    Attrib research    -0.6416118682504196
+    Attrib prepar    -0.33334257699974235
+    Attrib questionnair    -0.06967573333534356
+    Attrib softwar    -0.579049734843787
+    Attrib site    -0.3668302942802755
+    Attrib possibl    -0.09630775888669184
+    Attrib staff    -0.3401271881794873
+    Attrib spend    -0.3490869422279313
+    Attrib sound    -0.32615852829678943
+    Attrib pratic    0.13500018418207113
+    Attrib part    -0.7137187757996795
+    Attrib plan    -0.721308906871967
+    Attrib facilit    -0.4083594364549692
+    Attrib generic    -0.01934692918973828
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.15705121456849302
+    Attrib tool    0.24279718482916904
+    Attrib project    0.19522313379865758
+    Attrib assess    0.29409105238321137
+    Attrib universitari    -0.025987603201581434
+    Attrib proper    0.005009242044815907
+    Attrib privaci    0.11134002667094244
+    Attrib research    0.1363132675444308
+    Attrib prepar    0.12029049947626445
+    Attrib questionnair    0.026180661074559953
+    Attrib softwar    0.11285082061067839
+    Attrib site    0.04649623050214416
+    Attrib possibl    0.22049246140055856
+    Attrib staff    0.08936621585422765
+    Attrib spend    0.1275410228137495
+    Attrib sound    0.006190199470819482
+    Attrib pratic    0.015043483483856422
+    Attrib part    -0.0857328115751917
+    Attrib plan    0.02693659768095353
+    Attrib facilit    0.044269473178852756
+    Attrib generic    0.01917321257192277
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.16193475162394957
+    Attrib tool    -0.20615448438747797
+    Attrib project    1.909317783922576
+    Attrib assess    -0.8359065410597492
+    Attrib universitari    0.020390765103281087
+    Attrib proper    0.032060325853200414
+    Attrib privaci    -0.0020933902344543987
+    Attrib research    0.02356369177748943
+    Attrib prepar    0.019435867812373827
+    Attrib questionnair    0.12175137646049239
+    Attrib softwar    0.10405128885193406
+    Attrib site    0.09594166826465723
+    Attrib possibl    -0.04181186735575554
+    Attrib staff    0.011830544816337584
+    Attrib spend    0.014671067871321932
+    Attrib sound    0.09991465925792033
+    Attrib pratic    0.14631553033624262
+    Attrib part    -0.1872525046383302
+    Attrib plan    0.05031401340755942
+    Attrib facilit    0.055289017794979016
+    Attrib generic    0.10547685586859157
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.6658317584567763
+    Attrib tool    -1.7832235943715613
+    Attrib project    -1.898424505098421
+    Attrib assess    0.9221121136330271
+    Attrib universitari    -0.8619493602172134
+    Attrib proper    0.3286075605416528
+    Attrib privaci    0.649665498408047
+    Attrib research    0.6121265869994675
+    Attrib prepar    0.29896491413102133
+    Attrib questionnair    0.053248564658779314
+    Attrib softwar    0.5809674260374506
+    Attrib site    0.3128099252076248
+    Attrib possibl    0.2536606318786718
+    Attrib staff    0.3519830498691148
+    Attrib spend    0.308516652483581
+    Attrib sound    0.32175782508278955
+    Attrib pratic    -0.17712815902140436
+    Attrib part    0.5683321620442743
+    Attrib plan    0.6427753165241497
+    Attrib facilit    0.3393280483264268
+    Attrib generic    0.10063631342917205
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.3076266923553575
+    Attrib tool    0.3678616658485055
+    Attrib project    0.3369458120167537
+    Attrib assess    0.8188029414085579
+    Attrib universitari    0.3144663404423629
+    Attrib proper    -0.15726593936318187
+    Attrib privaci    -0.29058286274944634
+    Attrib research    -0.24444648170138594
+    Attrib prepar    -0.11455409113513451
+    Attrib questionnair    -0.06681333048270094
+    Attrib softwar    -0.2993786042720186
+    Attrib site    -0.17436287630304098
+    Attrib possibl    -0.27492165245424655
+    Attrib staff    -0.1343638177403733
+    Attrib spend    -0.13300274164576842
+    Attrib sound    -0.16307532014851103
+    Attrib pratic    0.06874920522792935
+    Attrib part    0.12042518931587302
+    Attrib plan    -0.32565641145159097
+    Attrib facilit    -0.0719111774816752
+    Attrib generic    -0.06219333086868964
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    0.5651332854853215
+    Attrib tool    -1.1242008168703448
+    Attrib project    -1.0066031353276215
+    Attrib assess    1.304878792125113
+    Attrib universitari    -0.6072859554700755
+    Attrib proper    0.2705807522287684
+    Attrib privaci    0.45467162277688106
+    Attrib research    0.46226738577809695
+    Attrib prepar    0.1734538506107058
+    Attrib questionnair    0.10636345308352356
+    Attrib softwar    0.5121279229739516
+    Attrib site    0.20387254491499018
+    Attrib possibl    0.2622201633429734
+    Attrib staff    0.22332788737296108
+    Attrib spend    0.26800215760695884
+    Attrib sound    0.21627265190457634
+    Attrib pratic    -0.07802376775101207
+    Attrib part    -0.3890375881697123
+    Attrib plan    0.3701838567607723
+    Attrib facilit    0.18057727919110578
+    Attrib generic    0.10043401542120912
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.5089863143535163
+    Attrib tool    0.6062128575068887
+    Attrib project    -1.2919370782675712
+    Attrib assess    1.7949194458243247
+    Attrib universitari    -0.17424526504743235
+    Attrib proper    0.07285160753636608
+    Attrib privaci    0.20426109067485898
+    Attrib research    0.3089987221167023
+    Attrib prepar    0.037126073596892246
+    Attrib questionnair    -0.08807936525582782
+    Attrib softwar    0.36439561630073874
+    Attrib site    0.12668333797617087
+    Attrib possibl    0.5154834204611498
+    Attrib staff    0.08134073526543749
+    Attrib spend    0.0817114597690805
+    Attrib sound    0.08931185342266679
+    Attrib pratic    -0.11392453786449158
+    Attrib part    -0.3762364253696385
+    Attrib plan    0.14486323111267002
+    Attrib facilit    -0.15012533844092074
+    Attrib generic    -0.049307923688550435
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.9082096733800354
+    Attrib tool    1.6686966521825664
+    Attrib project    -1.824652195796902
+    Attrib assess    -1.2343112853234628
+    Attrib universitari    -0.01766449594653612
+    Attrib proper    0.24763581257702907
+    Attrib privaci    0.5326595836098447
+    Attrib research    0.5825684922556816
+    Attrib prepar    0.21300838154338997
+    Attrib questionnair    -0.09960999346643563
+    Attrib softwar    0.6074873327212854
+    Attrib site    0.1978329445894903
+    Attrib possibl    1.0221793050802659
+    Attrib staff    0.22579526287839907
+    Attrib spend    0.1810934525038304
+    Attrib sound    0.2832526947189695
+    Attrib pratic    -0.22627499209878116
+    Attrib part    -0.33402721146586234
+    Attrib plan    0.49640712096387746
+    Attrib facilit    -0.16428828233700427
+    Attrib generic    -0.12122090126611511
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.04416083793553985
+    Attrib tool    1.4967256340164725
+    Attrib project    0.04024724246245388
+    Attrib assess    -0.9030052944489858
+    Attrib universitari    0.4599964514790937
+    Attrib proper    -0.06004655248969316
+    Attrib privaci    -0.08067654090939143
+    Attrib research    -0.10871140296926035
+    Attrib prepar    -0.060844146432296596
+    Attrib questionnair    -0.13338940395858218
+    Attrib softwar    -0.10814527316466453
+    Attrib site    -0.033775528971436077
+    Attrib possibl    0.17739832014051202
+    Attrib staff    -0.007776027290775734
+    Attrib spend    -0.0291273937156528
+    Attrib sound    -0.03836050129570364
+    Attrib pratic    0.07213445410365477
+    Attrib part    0.70644937158747
+    Attrib plan    -0.12241878140834253
+    Attrib facilit    -0.1853004150688201
+    Attrib generic    -0.09124859870690775
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    0.17831655167869068
+    Attrib tool    1.4369182141330696
+    Attrib project    0.14876677041075378
+    Attrib assess    -0.9716363811891123
+    Attrib universitari    0.26735090658418187
+    Attrib proper    0.04621792757785304
+    Attrib privaci    0.08714314944006796
+    Attrib research    0.05001139090115902
+    Attrib prepar    -0.010910766845493596
+    Attrib questionnair    -0.08451393996984295
+    Attrib softwar    0.09139367175944213
+    Attrib site    0.06434999683556268
+    Attrib possibl    0.49563751089266683
+    Attrib staff    0.007855584743819553
+    Attrib spend    0.09594198586168119
+    Attrib sound    0.06768305430399592
+    Attrib pratic    -0.05377838908664213
+    Attrib part    -0.16424679399589914
+    Attrib plan    0.1009030154320026
+    Attrib facilit    -0.11825831764019216
+    Attrib generic    -0.029592755973474136
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.01611707033149323
+    Attrib tool    0.6432622797444864
+    Attrib project    0.6771767469215274
+    Attrib assess    -0.21534765179858878
+    Attrib universitari    0.1557291195616979
+    Attrib proper    0.060201117218197035
+    Attrib privaci    -0.013121160554142907
+    Attrib research    0.03435578443955975
+    Attrib prepar    -0.01816458068783948
+    Attrib questionnair    -0.027122674092998234
+    Attrib softwar    0.010734654767351526
+    Attrib site    0.02368522230523983
+    Attrib possibl    0.17168047401240816
+    Attrib staff    -0.0417024435418574
+    Attrib spend    0.03621731676072546
+    Attrib sound    0.009887845865776611
+    Attrib pratic    -0.019134501847190125
+    Attrib part    -0.016515493791399043
+    Attrib plan    -0.037796119973146504
+    Attrib facilit    -0.05599406727242683
+    Attrib generic    -0.04433834570731595
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.08303442823782442
+    Attrib tool    -1.8787305624643829
+    Attrib project    0.7863613695379671
+    Attrib assess    0.263945655122471
+    Attrib universitari    -0.4177956176827761
+    Attrib proper    -0.05446536556482409
+    Attrib privaci    -0.029471573158326655
+    Attrib research    -0.024648029644264276
+    Attrib prepar    -0.006374574525760888
+    Attrib questionnair    0.07064470403939117
+    Attrib softwar    -0.0522943399806377
+    Attrib site    -0.04840063228333259
+    Attrib possibl    -0.5781484568181158
+    Attrib staff    -0.04625033106408492
+    Attrib spend    -0.045050924112069596
+    Attrib sound    -0.0339188958246244
+    Attrib pratic    -0.006221954749442498
+    Attrib part    0.07933270244671882
+    Attrib plan    -0.01705518043566518
+    Attrib facilit    0.23239231880668385
+    Attrib generic    0.14128218582144397
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -0.788191129706098
+    Attrib tool    0.4549650534835939
+    Attrib project    0.8766403418800579
+    Attrib assess    1.6008566030685172
+    Attrib universitari    0.6878576475191963
+    Attrib proper    -0.28583789864572956
+    Attrib privaci    -0.6991089898162706
+    Attrib research    -0.7164954262913983
+    Attrib prepar    -0.3634893555524941
+    Attrib questionnair    -0.033346377371927756
+    Attrib softwar    -0.710692950475132
+    Attrib site    -0.3813372984503573
+    Attrib possibl    -0.6650855137972103
+    Attrib staff    -0.33908759981036213
+    Attrib spend    -0.3555974397610165
+    Attrib sound    -0.3533845325647554
+    Attrib pratic    0.16393219877639487
+    Attrib part    0.027209356192603736
+    Attrib plan    -0.6910029975976668
+    Attrib facilit    -0.09907948001027908
+    Attrib generic    -0.025393655042873785
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    0.3308327545525118
+    Attrib tool    0.07645065085707586
+    Attrib project    1.6156905131493335
+    Attrib assess    -1.2489760194373722
+    Attrib universitari    -0.1630337024985563
+    Attrib proper    0.0532447205865487
+    Attrib privaci    0.15511595788593677
+    Attrib research    0.2226345398398174
+    Attrib prepar    0.08850573692571428
+    Attrib questionnair    0.023973810508868234
+    Attrib softwar    0.2536047318338733
+    Attrib site    0.08717086162753505
+    Attrib possibl    0.3074730322490553
+    Attrib staff    0.11637157694814607
+    Attrib spend    0.1230294755423202
+    Attrib sound    0.12564592872151203
+    Attrib pratic    -0.017023610227068598
+    Attrib part    -0.30813111061473003
+    Attrib plan    0.137732604222773
+    Attrib facilit    0.04338354939345084
+    Attrib generic    0.04585893858889213
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.030120169861636428
+    Attrib tool    -1.774773312522734
+    Attrib project    1.6265596971170044
+    Attrib assess    -0.9577600016549284
+    Attrib universitari    -0.44082483441090387
+    Attrib proper    -0.005076144436091614
+    Attrib privaci    0.05681322600655385
+    Attrib research    0.039805635027702714
+    Attrib prepar    -0.002837756695767559
+    Attrib questionnair    0.19708228842642378
+    Attrib softwar    0.05196923190666455
+    Attrib site    -0.00555993747990367
+    Attrib possibl    -0.4278147518595857
+    Attrib staff    0.0448604279859063
+    Attrib spend    -0.02101776327964538
+    Attrib sound    0.03638267712855074
+    Attrib pratic    0.011428398464520402
+    Attrib part    -0.11076293207767404
+    Attrib plan    0.0891588644625755
+    Attrib facilit    0.280884376447692
+    Attrib generic    0.14014765925226857
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.23792009983500406
+    Attrib tool    -0.1562922455867718
+    Attrib project    0.5919407876118524
+    Attrib assess    0.045498970448475645
+    Attrib universitari    0.08589014870177028
+    Attrib proper    -0.0782789549986363
+    Attrib privaci    -0.15712369231585388
+    Attrib research    -0.1457408263525289
+    Attrib prepar    -0.08495090968400579
+    Attrib questionnair    0.03220096610684403
+    Attrib softwar    -0.20231376609654442
+    Attrib site    -0.04860192510248225
+    Attrib possibl    -0.2574714776210581
+    Attrib staff    -0.04457094945494238
+    Attrib spend    -0.04779725666423068
+    Attrib sound    -0.1349632204478065
+    Attrib pratic    0.04804723114063015
+    Attrib part    0.20148395394870078
+    Attrib plan    -0.18313633101108076
+    Attrib facilit    -0.03639742737644968
+    Attrib generic    -0.00970511927714932
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    0.6861157694250855
+    Attrib tool    0.17024638403494052
+    Attrib project    -1.6235139686092133
+    Attrib assess    1.1533201552760513
+    Attrib universitari    -0.40509187671578606
+    Attrib proper    0.14535984459416895
+    Attrib privaci    0.4382869316991498
+    Attrib research    0.4644734819470906
+    Attrib prepar    0.17999885758433137
+    Attrib questionnair    -0.07674956518436325
+    Attrib softwar    0.4630539944668498
+    Attrib site    0.20901453533829872
+    Attrib possibl    0.4860958776223764
+    Attrib staff    0.23944046752403148
+    Attrib spend    0.1814366482508072
+    Attrib sound    0.19218742760386476
+    Attrib pratic    -0.10744750001586123
+    Attrib part    -0.37851918323541994
+    Attrib plan    0.3229243628294787
+    Attrib facilit    -0.011830815875265514
+    Attrib generic    -0.07058263953908221
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -0.36974770094028603
+    Attrib tool    0.3776596319515912
+    Attrib project    1.6102762213441104
+    Attrib assess    2.071953850043903
+    Attrib universitari    0.4118401031177885
+    Attrib proper    -0.21018780961215022
+    Attrib privaci    -0.3990286591318014
+    Attrib research    -0.36325557986924
+    Attrib prepar    -0.18441663119746793
+    Attrib questionnair    0.045344578168611246
+    Attrib softwar    -0.27687039080279435
+    Attrib site    -0.13888521571952409
+    Attrib possibl    -0.25415343858461165
+    Attrib staff    -0.15351391476790593
+    Attrib spend    -0.14332215163084613
+    Attrib sound    -0.17120774212135054
+    Attrib pratic    0.08203174041132599
+    Attrib part    -0.45928956950998673
+    Attrib plan    -0.3968592541361389
+    Attrib facilit    -0.13179338273780095
+    Attrib generic    -0.008508494276203243
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    0.20237229239912516
+    Attrib tool    -0.646276449966061
+    Attrib project    2.3479481487158442
+    Attrib assess    -1.1301840979103541
+    Attrib universitari    -0.28058986458356844
+    Attrib proper    0.10618930122469744
+    Attrib privaci    0.12965194881124106
+    Attrib research    0.1510595657251059
+    Attrib prepar    0.1738054765770739
+    Attrib questionnair    0.11595040994580744
+    Attrib softwar    0.2591989049598724
+    Attrib site    0.13387803051258693
+    Attrib possibl    0.1334835768677481
+    Attrib staff    0.16221217509025404
+    Attrib spend    0.07710001548493223
+    Attrib sound    0.18085605234114588
+    Attrib pratic    0.10832035576933498
+    Attrib part    -0.29023608291750663
+    Attrib plan    0.16612355297488937
+    Attrib facilit    0.03684950660404343
+    Attrib generic    0.10912834681136996
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    0.6689122606227998
+    Attrib tool    -1.9520445583366128
+    Attrib project    -0.6362703882190491
+    Attrib assess    -1.365892980803426
+    Attrib universitari    -0.9096604249118828
+    Attrib proper    0.37252851480008997
+    Attrib privaci    0.7758599937839639
+    Attrib research    0.7184244990773313
+    Attrib prepar    0.42354452043494795
+    Attrib questionnair    0.14193785285201432
+    Attrib softwar    0.7308068018438154
+    Attrib site    0.39561959596873797
+    Attrib possibl    0.31737861412195895
+    Attrib staff    0.3592657388785546
+    Attrib spend    0.4228531479923088
+    Attrib sound    0.3890725133643208
+    Attrib pratic    -0.11081401405225609
+    Attrib part    0.5605024134842351
+    Attrib plan    0.7755068812724508
+    Attrib facilit    0.42594908813946397
+    Attrib generic    0.14272612582592625
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    0.3905231923488689
+    Attrib tool    -0.5934314619154969
+    Attrib project    -1.596179109247287
+    Attrib assess    0.6677333439972342
+    Attrib universitari    -0.4272582943864989
+    Attrib proper    0.214853399091505
+    Attrib privaci    0.43976915450600756
+    Attrib research    0.39234291565325624
+    Attrib prepar    0.17738851796975302
+    Attrib questionnair    0.0721063049161802
+    Attrib softwar    0.3035070044286213
+    Attrib site    0.21269841051273497
+    Attrib possibl    0.18769694709795523
+    Attrib staff    0.18182910772721378
+    Attrib spend    0.22556244473430503
+    Attrib sound    0.17655398314595358
+    Attrib pratic    -0.07368173953741664
+    Attrib part    0.45655061511797757
+    Attrib plan    0.36907450630985267
+    Attrib facilit    0.11664476038794636
+    Attrib generic    0.024077103189795133
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    1.038863325744156
+    Attrib tool    -0.38249926273089585
+    Attrib project    -1.4988505227080655
+    Attrib assess    -1.2984957367462622
+    Attrib universitari    -0.8225060088218307
+    Attrib proper    0.4263319443960434
+    Attrib privaci    0.727935955032066
+    Attrib research    0.8885246052825045
+    Attrib prepar    0.44866987499467564
+    Attrib questionnair    0.08859480161403371
+    Attrib softwar    0.8939089609172571
+    Attrib site    0.44648567291890745
+    Attrib possibl    0.9312835693764002
+    Attrib staff    0.3643539503693482
+    Attrib spend    0.43224468624449547
+    Attrib sound    0.4370491946382038
+    Attrib pratic    -0.1976224567187506
+    Attrib part    -0.3199840254205064
+    Attrib plan    0.6945029009589097
+    Attrib facilit    0.132583947840697
+    Attrib generic    0.023106586952379438
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    0.43679972046418564
+    Attrib tool    1.95604379433191
+    Attrib project    -0.32916625946967426
+    Attrib assess    -1.1383125746750413
+    Attrib universitari    0.3049380974366794
+    Attrib proper    0.03827454408389017
+    Attrib privaci    0.11863440228769563
+    Attrib research    0.2376719477470662
+    Attrib prepar    0.12821725580389975
+    Attrib questionnair    -0.11863488888140902
+    Attrib softwar    0.23172713590741645
+    Attrib site    0.01517798303821617
+    Attrib possibl    0.7792411566205918
+    Attrib staff    0.13466190461886507
+    Attrib spend    0.07296304685327158
+    Attrib sound    0.0754362015171209
+    Attrib pratic    -0.10465756873122016
+    Attrib part    -0.12445659687137825
+    Attrib plan    0.13531468703243113
+    Attrib facilit    -0.23885260074265016
+    Attrib generic    -0.045347221757099224
+Class assessment
+    Input
+    Node 0
+Class classes preparation
+    Input
+    Node 1
+Class curriculum
+    Input
+    Node 2
+Class devops concepts
+    Input
+    Node 3
+Class environment setup
+    Input
+    Node 4
+Class pedagogy
+    Input
+    Node 5
+Class tools
+    Input
+    Node 6
+
+
+Time taken to build model: 1.58 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          30               41.0959 %
+Incorrectly Classified Instances        43               58.9041 %
+Kappa statistic                          0.2898
+Mean absolute error                      0.1974
+Root mean squared error                  0.3079
+Relative absolute error                 81.0588 %
+Root relative squared error             88.2223 %
+Total Number of Instances               73     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,455    0,016    0,833      0,455    0,588      0,571    0,782     0,580     assessment
+                 0,200    0,000    1,000      0,200    0,333      0,421    0,681     0,500     classes preparation
+                 0,455    0,306    0,208      0,455    0,286      0,113    0,688     0,232     curriculum
+                 0,000    0,016    0,000      0,000    0,000      -0,044   0,630     0,168     devops concepts
+                 0,000    0,000    ?          0,000    ?          ?        0,529     0,111     environment setup
+                 0,667    0,345    0,333      0,667    0,444      0,264    0,787     0,628     pedagogy
+                 0,800    0,032    0,800      0,800    0,800      0,768    0,921     0,824     tools
+Weighted Avg.    0,411    0,126    ?          0,411    ?          ?        0,731     0,464     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  5  0  4  0  0  2  0 |  a = assessment
+  1  2  2  1  0  3  1 |  b = classes preparation
+  0  0  5  0  0  6  0 |  c = curriculum
+  0  0  4  0  0  5  0 |  d = devops concepts
+  0  0  3  0  0  3  1 |  e = environment setup
+  0  0  5  0  0 10  0 |  f = pedagogy
+  0  0  1  0  0  1  8 |  g = tools
+
