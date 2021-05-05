@@ -1,0 +1,703 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/home/samuel/Downloads/weka-3-8-5-azul-zulu-linux/weka-3-8-5/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+Options: -L 0.1 -M 0.8 -N 10000 -V 0 -S 0 -E 20 -H 19 
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.0330653222252355
+    Node 7    -1.2885956046876819
+    Node 8    -1.1123160259516576
+    Node 9    -0.4267659444973311
+    Node 10    -1.4968215551017514
+    Node 11    -2.4047442778781196
+    Node 12    -1.3265555444568908
+    Node 13    -1.5869838230536588
+    Node 14    -1.1030209311173096
+    Node 15    -1.8461678647786137
+    Node 16    -1.7652764390202
+    Node 17    0.9375892358999779
+    Node 18    -2.919177749040616
+    Node 19    7.877690212676592
+    Node 20    0.9181317128219324
+    Node 21    -1.6221836694170806
+    Node 22    -0.7235138736749986
+    Node 23    -1.3477959013228835
+    Node 24    -3.185445351067311
+    Node 25    -1.9911803870960327
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.5271983729833734
+    Node 7    -1.6682194046042391
+    Node 8    -1.6672065326976782
+    Node 9    -1.5953065046946435
+    Node 10    -1.5455940011368217
+    Node 11    -3.0684842364585085
+    Node 12    -3.6289204283876173
+    Node 13    -2.747107379598615
+    Node 14    -2.255276694582572
+    Node 15    -2.2009396331274536
+    Node 16    -3.166601758795565
+    Node 17    -2.2945920675197358
+    Node 18    -1.776858302090627
+    Node 19    -2.45687366570243
+    Node 20    -2.1334432916063117
+    Node 21    -4.112233189550931
+    Node 22    -2.1913286279842707
+    Node 23    -1.5095927526510455
+    Node 24    -3.319572028044942
+    Node 25    -6.180882120079621
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -3.0404389120633706
+    Node 7    4.404643187789556
+    Node 8    -3.0299571538502126
+    Node 9    0.3111020760137665
+    Node 10    -0.32197240198068433
+    Node 11    -1.7450114407127137
+    Node 12    8.082951481863766
+    Node 13    5.779179752322984
+    Node 14    -1.5757080940498371
+    Node 15    -5.70144727510811
+    Node 16    -1.1721173980340114
+    Node 17    -0.7770359484509631
+    Node 18    -1.499474554397914
+    Node 19    -1.7852893214926435
+    Node 20    0.5990592979100086
+    Node 21    7.266499846446243
+    Node 22    0.9894238958104229
+    Node 23    6.4340134739420956
+    Node 24    -2.793131637374545
+    Node 25    -8.355602004788558
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.062044796505771
+    Node 7    -2.425635167613505
+    Node 8    -0.9467348414816776
+    Node 9    -1.221750041049635
+    Node 10    -5.491374056374449
+    Node 11    -3.2127571651622144
+    Node 12    -5.347745654018869
+    Node 13    -1.8968083990338014
+    Node 14    -3.75487254520248
+    Node 15    -1.4667450248061402
+    Node 16    6.502649480959865
+    Node 17    -4.039871436947809
+    Node 18    -2.4443763735248236
+    Node 19    -0.8958351265086089
+    Node 20    10.399113566972247
+    Node 21    2.5746503019855513
+    Node 22    0.6580125569589446
+    Node 23    -0.5355526592933051
+    Node 24    -3.446465333686915
+    Node 25    -10.327345046793546
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -3.763703651249263
+    Node 7    2.485710598305436
+    Node 8    3.2672388773027445
+    Node 9    -0.5955320398796292
+    Node 10    -11.104344788823173
+    Node 11    -2.3623975890554494
+    Node 12    -2.783678201182022
+    Node 13    -2.5998728165102962
+    Node 14    5.021657228070098
+    Node 15    -1.0747009997903774
+    Node 16    -1.8379519898490388
+    Node 17    -0.9862040097566419
+    Node 18    -0.9340650206294953
+    Node 19    -1.3831332731790391
+    Node 20    0.6207662130530237
+    Node 21    -0.16847786846778387
+    Node 22    -1.4922973977302492
+    Node 23    -1.4267002563939206
+    Node 24    -2.2199937523405375
+    Node 25    11.081485114331098
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.05799976781943927
+    Node 7    -2.0173801457342218
+    Node 8    -1.5485889326718458
+    Node 9    -1.1716117952635177
+    Node 10    8.114463609316747
+    Node 11    -4.639062513546015
+    Node 12    -5.9653543468957375
+    Node 13    -2.268832266632341
+    Node 14    -2.9376852261692172
+    Node 15    -3.1163030711472812
+    Node 16    -4.825722658286453
+    Node 17    -0.9402165311740384
+    Node 18    5.714558818484273
+    Node 19    -4.627386738962799
+    Node 20    -10.243652694249558
+    Node 21    3.5324481556941
+    Node 22    0.6284140200854821
+    Node 23    -0.7723824632450218
+    Node 24    5.080196355125958
+    Node 25    -3.498299888043829
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -2.030828887248444
+    Node 7    -1.7586942699014767
+    Node 8    -0.7731374205914645
+    Node 9    -0.26905406099806495
+    Node 10    -0.8788070070894554
+    Node 11    7.072762141128953
+    Node 12    -2.522016699788663
+    Node 13    -1.103692033766924
+    Node 14    -2.0014711289001395
+    Node 15    8.825039061139723
+    Node 16    -2.9260121541626964
+    Node 17    -4.299401350950271
+    Node 18    -1.23307252393543
+    Node 19    -1.0439289538173584
+    Node 20    -1.5585699148749843
+    Node 21    -11.830237593645501
+    Node 22    0.4449203184379856
+    Node 23    0.07107818400068974
+    Node 24    -3.209687999991748
+    Node 25    -5.597313075498869
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.3181467911203648
+    Attrib set    3.144816352721171
+    Attrib assess    -0.454776705904287
+    Attrib automat    0.42936666621762765
+    Attrib devop    -0.3919995131873526
+    Attrib web    0.2813664845347657
+    Attrib differ    -0.9307295054391614
+    Attrib deliveri    0.8820840801699119
+    Attrib deriv    -0.14130510988280506
+    Attrib deliv    0.14399888862525756
+    Attrib efficaci    0.08651895030534877
+    Attrib cover    -0.55841906884069
+    Attrib curricula    -0.09423448665060886
+    Attrib curriculum    -0.01321469011769036
+    Attrib earli    0.11283515911212559
+    Attrib establish    -0.18179006775864529
+    Attrib emphas    -0.7173988835711729
+    Attrib iac    0.3435481640729685
+    Attrib improv    4.123639020791192
+    Attrib hour    0.09394309562443291
+    Attrib hybrid    0.30620929452868556
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.3971220071885889
+    Attrib set    4.2518499140044055
+    Attrib assess    -0.38368430993931096
+    Attrib automat    2.605706924942558
+    Attrib devop    -0.13456221273434849
+    Attrib web    1.6459979433828322
+    Attrib differ    -1.0281769947579766
+    Attrib deliveri    -1.0023212709505214
+    Attrib deriv    -0.05011378383359731
+    Attrib deliv    0.03994375595975568
+    Attrib efficaci    0.04846692303372115
+    Attrib cover    0.1477554703074401
+    Attrib curricula    -0.09307878667166866
+    Attrib curriculum    -0.07346749479684175
+    Attrib earli    0.040718549931301994
+    Attrib establish    -0.23829242826902028
+    Attrib emphas    -0.8650858780375734
+    Attrib iac    0.19032471995037997
+    Attrib improv    0.49705019830550634
+    Attrib hour    0.06066653849210674
+    Attrib hybrid    0.24206703673902194
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.5100047128168916
+    Attrib set    0.0921714606224428
+    Attrib assess    0.042593933478896034
+    Attrib automat    0.020524051920070282
+    Attrib devop    1.1080993920092923
+    Attrib web    -0.1411114376952706
+    Attrib differ    -0.9595320103725246
+    Attrib deliveri    -1.14718844266328
+    Attrib deriv    0.7923311351648442
+    Attrib deliv    1.1001642904078082
+    Attrib efficaci    0.20560896783793042
+    Attrib cover    1.635616472742638
+    Attrib curricula    0.7650949524468244
+    Attrib curriculum    0.6967713964719734
+    Attrib earli    0.3175918293330726
+    Attrib establish    0.3324463976701011
+    Attrib emphas    -0.6669465479812148
+    Attrib iac    1.5672211385687982
+    Attrib improv    0.10865062546875075
+    Attrib hour    0.5354258765866509
+    Attrib hybrid    0.5479820003982275
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.34281418057814145
+    Attrib set    -0.6919290779646845
+    Attrib assess    -0.6811599932942178
+    Attrib automat    -0.6663999298140169
+    Attrib devop    17.1338610876876
+    Attrib web    -0.3926284503251041
+    Attrib differ    -0.12621352383711124
+    Attrib deliveri    2.154847576816687
+    Attrib deriv    0.7293225494319968
+    Attrib deliv    0.9442246125881071
+    Attrib efficaci    0.8473894082655857
+    Attrib cover    0.3262162439068645
+    Attrib curricula    0.7231015973145127
+    Attrib curriculum    1.1404729915815237
+    Attrib earli    0.8795767101973619
+    Attrib establish    0.854253638557685
+    Attrib emphas    0.39266741022148993
+    Attrib iac    0.7690058255156319
+    Attrib improv    3.844618160527051
+    Attrib hour    0.9207220069537001
+    Attrib hybrid    1.081495771353315
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.08903983135024769
+    Attrib set    -0.9856187174334275
+    Attrib assess    -0.7006832702485722
+    Attrib automat    6.647367541323543
+    Attrib devop    0.7561995612227234
+    Attrib web    4.72081049561545
+    Attrib differ    -0.7516531537139458
+    Attrib deliveri    -0.9492402478452393
+    Attrib deriv    -0.22907602326614623
+    Attrib deliv    -0.16917842305688285
+    Attrib efficaci    -0.3598154259979921
+    Attrib cover    -0.6117519319555383
+    Attrib curricula    -0.15060552452341092
+    Attrib curriculum    -0.12952369389577253
+    Attrib earli    0.08009587094446786
+    Attrib establish    -0.352584032599378
+    Attrib emphas    -0.7044828434467547
+    Attrib iac    -0.19228705249967012
+    Attrib improv    1.1250497886994748
+    Attrib hour    -0.09868916904368219
+    Attrib hybrid    -0.32813958486397166
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    3.5327396289537836
+    Attrib set    -3.601282720901245
+    Attrib assess    -3.428477777173452
+    Attrib automat    -3.990443084286159
+    Attrib devop    0.822855538889749
+    Attrib web    -3.6513544196116308
+    Attrib differ    -2.048500417851533
+    Attrib deliveri    -4.686867813383626
+    Attrib deriv    1.6445913551577014
+    Attrib deliv    3.3217928262559635
+    Attrib efficaci    3.699843509833454
+    Attrib cover    0.46664407869150115
+    Attrib curricula    1.630046328052763
+    Attrib curriculum    5.253461173421701
+    Attrib earli    4.496307720236509
+    Attrib establish    3.343411512154875
+    Attrib emphas    -0.23873883314798863
+    Attrib iac    3.191257727464918
+    Attrib improv    -3.3515852367032513
+    Attrib hour    3.314173744779746
+    Attrib hybrid    3.7127551178531024
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    2.1706029178414386
+    Attrib set    -2.2441892735497153
+    Attrib assess    -2.2511779813135444
+    Attrib automat    -2.7407002814479284
+    Attrib devop    0.6968652855431487
+    Attrib web    -2.350128522959892
+    Attrib differ    -1.290532144721467
+    Attrib deliveri    -2.9217918148388744
+    Attrib deriv    0.8932254694664068
+    Attrib deliv    1.998467539879974
+    Attrib efficaci    2.9008431546893467
+    Attrib cover    -0.3286530480990233
+    Attrib curricula    0.8617590939569555
+    Attrib curriculum    3.7762969734867036
+    Attrib earli    3.0174491532697627
+    Attrib establish    1.8144092970625605
+    Attrib emphas    -0.04184897736528435
+    Attrib iac    3.2240987045511456
+    Attrib improv    -1.8365712343951472
+    Attrib hour    1.938919401121548
+    Attrib hybrid    2.9190260595290143
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    1.528109212544827
+    Attrib set    4.462007103638046
+    Attrib assess    -1.1777652062219044
+    Attrib automat    0.19574851230846083
+    Attrib devop    0.469404508238194
+    Attrib web    -0.9692196265172749
+    Attrib differ    -1.9953777187105237
+    Attrib deliveri    -2.6480527785059427
+    Attrib deriv    1.1672919027500537
+    Attrib deliv    1.5546609119210324
+    Attrib efficaci    0.212578754289779
+    Attrib cover    1.4934333970822786
+    Attrib curricula    1.1547955344554903
+    Attrib curriculum    1.0536728994150375
+    Attrib earli    -0.750068903333668
+    Attrib establish    1.3970699286017751
+    Attrib emphas    -1.5896109655018122
+    Attrib iac    2.6067774167259414
+    Attrib improv    -1.2601868797523925
+    Attrib hour    0.7499826311763867
+    Attrib hybrid    1.3021836525343675
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    1.0674073938043573
+    Attrib set    0.3939869263043439
+    Attrib assess    -1.305516104963318
+    Attrib automat    2.995940500077455
+    Attrib devop    11.902395085137083
+    Attrib web    1.178164854893201
+    Attrib differ    -1.417926865972994
+    Attrib deliveri    -1.7660678509677363
+    Attrib deriv    -0.5118235051469339
+    Attrib deliv    -0.07395515222735698
+    Attrib efficaci    -0.30843241566662544
+    Attrib cover    -0.9059479607423672
+    Attrib curricula    -0.5021417435405552
+    Attrib curriculum    -0.317301015617127
+    Attrib earli    0.0457355986801729
+    Attrib establish    -0.5448170214757903
+    Attrib emphas    -1.1873069028045793
+    Attrib iac    -0.40655525534145986
+    Attrib improv    -0.26778094669058566
+    Attrib hour    -0.2999583536261131
+    Attrib hybrid    -0.2232884875490262
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    2.2700916357082037
+    Attrib set    -2.1074979688885955
+    Attrib assess    -2.169302010311596
+    Attrib automat    -2.604067667062483
+    Attrib devop    0.5154643343178225
+    Attrib web    -2.2894643267835653
+    Attrib differ    -1.6418163375472044
+    Attrib deliveri    -3.511824799462052
+    Attrib deriv    0.7188197650515776
+    Attrib deliv    1.6899286416197001
+    Attrib efficaci    2.535700182556593
+    Attrib cover    8.106133925386343
+    Attrib curricula    0.779118632267059
+    Attrib curriculum    2.70985595127369
+    Attrib earli    3.5383813322040285
+    Attrib establish    1.6601813392834446
+    Attrib emphas    -0.3360125306096529
+    Attrib iac    -0.28507906234011193
+    Attrib improv    -2.0046563658589283
+    Attrib hour    1.4370268336343606
+    Attrib hybrid    2.4528765711702953
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.5871161490897882
+    Attrib set    0.03676954572293094
+    Attrib assess    4.341344992431716
+    Attrib automat    -1.6048238715975642
+    Attrib devop    -4.004074350412158
+    Attrib web    -0.5847472887793728
+    Attrib differ    2.6906405513961613
+    Attrib deliveri    0.11932090770582314
+    Attrib deriv    -0.13188338914952344
+    Attrib deliv    -0.4279618692124268
+    Attrib efficaci    0.00520781540159346
+    Attrib cover    -2.2190841628905456
+    Attrib curricula    -0.05397928168402003
+    Attrib curriculum    -0.03695417549986918
+    Attrib earli    0.25801536238797557
+    Attrib establish    0.5999320837353437
+    Attrib emphas    2.540985588257099
+    Attrib iac    -0.33762734267081423
+    Attrib improv    2.8523328218870065
+    Attrib hour    0.2262341872629001
+    Attrib hybrid    -0.47260341084468693
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.7590327692722686
+    Attrib set    -0.9314718148103828
+    Attrib assess    -1.280453976126658
+    Attrib automat    -1.2123649415862139
+    Attrib devop    -1.967979723933709
+    Attrib web    -0.9322211121814571
+    Attrib differ    4.617120404290203
+    Attrib deliveri    0.4031023771976403
+    Attrib deriv    0.5243202826171611
+    Attrib deliv    0.7503818796108295
+    Attrib efficaci    1.0050041491223423
+    Attrib cover    -1.2046370213517572
+    Attrib curricula    0.4716165965314713
+    Attrib curriculum    1.154782177365427
+    Attrib earli    -1.5490810725705113
+    Attrib establish    1.486514415017429
+    Attrib emphas    4.184855872567263
+    Attrib iac    0.3904646897464589
+    Attrib improv    -0.06906535117655095
+    Attrib hour    0.7358420232128924
+    Attrib hybrid    0.9628372142479418
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    0.4695086138034044
+    Attrib set    -0.13314541454748563
+    Attrib assess    8.288126259345239
+    Attrib automat    2.157704547905527
+    Attrib devop    0.07864214865579418
+    Attrib web    1.6740814164063162
+    Attrib differ    -1.3813214277923205
+    Attrib deliveri    -1.1680385699304658
+    Attrib deriv    -0.35860336048742003
+    Attrib deliv    -0.1824359928303245
+    Attrib efficaci    -0.34795719018541854
+    Attrib cover    1.193486618142962
+    Attrib curricula    -0.3272790428498086
+    Attrib curriculum    -0.40720979928742584
+    Attrib earli    -0.2882252419845909
+    Attrib establish    -0.5910080268222891
+    Attrib emphas    -1.1916877254100482
+    Attrib iac    -0.022480675309214253
+    Attrib improv    0.24841735113617502
+    Attrib hour    -0.2707988083520849
+    Attrib hybrid    -0.17685393624362453
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -0.13381131091651488
+    Attrib set    3.5477299992134976
+    Attrib assess    5.127089281904438
+    Attrib automat    1.1212016624790184
+    Attrib devop    -3.847970482651103
+    Attrib web    1.512223339426541
+    Attrib differ    -0.9243746615878403
+    Attrib deliveri    11.401720802912527
+    Attrib deriv    -0.24797795761095764
+    Attrib deliv    -0.26303838403584867
+    Attrib efficaci    -0.5500698355455209
+    Attrib cover    1.0422248632339104
+    Attrib curricula    -0.20791165502485054
+    Attrib curriculum    -0.2989109356056329
+    Attrib earli    -0.09508715151515419
+    Attrib establish    -0.4507072080501485
+    Attrib emphas    -0.7827888488115894
+    Attrib iac    -0.3411576781325933
+    Attrib improv    -1.6556881746190213
+    Attrib hour    -0.2508068590658424
+    Attrib hybrid    -0.5174425069901167
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    0.6978000773573575
+    Attrib set    -1.00690033620043
+    Attrib assess    -0.4479899324182879
+    Attrib automat    -0.0886789477235265
+    Attrib devop    21.9030628959187
+    Attrib web    -0.21593374406654858
+    Attrib differ    -0.8756602577299705
+    Attrib deliveri    -1.6831664757182634
+    Attrib deriv    0.08045333526010592
+    Attrib deliv    0.31558275819700243
+    Attrib efficaci    0.05969891711160684
+    Attrib cover    -0.7474514659093913
+    Attrib curricula    0.10957276325176679
+    Attrib curriculum    0.3055867466122229
+    Attrib earli    0.7506020607789055
+    Attrib establish    -0.18229036991725556
+    Attrib emphas    -0.5409685063718815
+    Attrib iac    0.09276835828674941
+    Attrib improv    0.15004257328844797
+    Attrib hour    -0.02732124663923786
+    Attrib hybrid    0.2611665565922915
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    0.8606220354651813
+    Attrib set    -0.7161352218095076
+    Attrib assess    -0.16377501506641232
+    Attrib automat    1.076736248869464
+    Attrib devop    2.6047470769590335
+    Attrib web    -0.35549911536551093
+    Attrib differ    -1.5723240992503675
+    Attrib deliveri    -2.004118962592997
+    Attrib deriv    0.9640067110896386
+    Attrib deliv    0.9908854942000167
+    Attrib efficaci    0.9256611534183866
+    Attrib cover    0.213591041939979
+    Attrib curricula    0.9174314966179633
+    Attrib curriculum    1.472484683097693
+    Attrib earli    -0.15329430414835737
+    Attrib establish    1.3084624862973717
+    Attrib emphas    -1.0666825706931597
+    Attrib iac    0.5178711516869972
+    Attrib improv    -0.43401387273740705
+    Attrib hour    1.0565839390711809
+    Attrib hybrid    1.1694239316556936
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    0.3029703423530471
+    Attrib set    -0.698212693604053
+    Attrib assess    -0.6876541337636581
+    Attrib automat    0.11773958075689038
+    Attrib devop    0.7534023609000021
+    Attrib web    -0.03897235652627271
+    Attrib differ    -0.5785823034476354
+    Attrib deliveri    0.7158342439177631
+    Attrib deriv    0.10864642718479395
+    Attrib deliv    0.34716318123470064
+    Attrib efficaci    0.32603293163610336
+    Attrib cover    -0.5869497957780262
+    Attrib curricula    0.07033027215019219
+    Attrib curriculum    1.0413455192184944
+    Attrib earli    0.40710325536596126
+    Attrib establish    0.02302585361420889
+    Attrib emphas    -0.31017772352575435
+    Attrib iac    0.6458254078811582
+    Attrib improv    4.377262944812186
+    Attrib hour    0.3671697268481818
+    Attrib hybrid    0.2921151684565254
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    0.7927578739369493
+    Attrib set    -1.1929757695358654
+    Attrib assess    -1.6119750915821853
+    Attrib automat    -0.8665449297040047
+    Attrib devop    -1.5352199382811886
+    Attrib web    -0.7313548477019888
+    Attrib differ    0.9090805861321047
+    Attrib deliveri    11.048586296141021
+    Attrib deriv    -0.23951694360457645
+    Attrib deliv    -0.1289486041954511
+    Attrib efficaci    0.02923455059220484
+    Attrib cover    0.032206015285718086
+    Attrib curricula    -0.2707407975808969
+    Attrib curriculum    0.08392208816109108
+    Attrib earli    -0.606214089946446
+    Attrib establish    0.41154185864584186
+    Attrib emphas    2.271618178962668
+    Attrib iac    -0.5486060460448206
+    Attrib improv    -0.4759424008966059
+    Attrib hour    -0.07757957426552756
+    Attrib hybrid    0.29427127246555285
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    0.10400257367512238
+    Attrib set    6.092312974639101
+    Attrib assess    0.13259537639595811
+    Attrib automat    -0.0745373120802675
+    Attrib devop    25.866365980881714
+    Attrib web    0.0751815784812309
+    Attrib differ    -0.40346541965217575
+    Attrib deliveri    -0.8292379051197587
+    Attrib deriv    0.671054861161274
+    Attrib deliv    0.6914432915757773
+    Attrib efficaci    0.8244583902390054
+    Attrib cover    -0.40793803938298706
+    Attrib curricula    0.6365331350375539
+    Attrib curriculum    0.7513225523167488
+    Attrib earli    1.0160177507496069
+    Attrib establish    0.484794320600713
+    Attrib emphas    -0.08076014454778033
+    Attrib iac    0.4221910508853442
+    Attrib improv    0.4538944544940566
+    Attrib hour    0.6116807742737939
+    Attrib hybrid    0.8927387434654105
+Class assessment
+    Input
+    Node 0
+Class classes preparation
+    Input
+    Node 1
+Class curriculum
+    Input
+    Node 2
+Class devops concepts
+    Input
+    Node 3
+Class environment setup
+    Input
+    Node 4
+Class pedagogy
+    Input
+    Node 5
+Class tools
+    Input
+    Node 6
+
+
+Time taken to build model: 28.8 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          60               70.5882 %
+Incorrectly Classified Instances        25               29.4118 %
+Kappa statistic                          0.5772
+Mean absolute error                      0.1189
+Root mean squared error                  0.2408
+Relative absolute error                 53.0695 %
+Root relative squared error             72.202  %
+Total Number of Instances               85     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,600    0,000    1,000      0,600    0,750      0,765    0,895     0,643     assessment
+                 0,000    0,000    ?          0,000    ?          ?        0,763     0,159     classes preparation
+                 0,786    0,000    1,000      0,786    0,880      0,868    0,944     0,879     curriculum
+                 0,300    0,000    1,000      0,300    0,462      0,524    0,830     0,528     devops concepts
+                 0,800    0,000    1,000      0,800    0,889      0,889    0,946     0,821     environment setup
+                 1,000    0,481    0,569      1,000    0,725      0,544    0,818     0,703     pedagogy
+                 0,545    0,000    1,000      0,545    0,706      0,715    0,880     0,645     tools
+Weighted Avg.    0,706    0,187    ?          0,706    ?          ?        0,856     0,663     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  3  0  0  0  0  2  0 |  a = assessment
+  0  0  0  0  0  7  0 |  b = classes preparation
+  0  0 11  0  0  3  0 |  c = curriculum
+  0  0  0  3  0  7  0 |  d = devops concepts
+  0  0  0  0  4  1  0 |  e = environment setup
+  0  0  0  0  0 33  0 |  f = pedagogy
+  0  0  0  0  0  5  6 |  g = tools
+
+Time taken to perform cross-validation: 23.2 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          44               51.7647 %
+Incorrectly Classified Instances        41               48.2353 %
+Kappa statistic                          0.2876
+Mean absolute error                      0.1748
+Root mean squared error                  0.327 
+Relative absolute error                 77.469  %
+Root relative squared error             97.9039 %
+Total Number of Instances               85     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,400    0,000    1,000      0,400    0,571      0,621    0,773     0,633     assessment
+                 0,000    0,000    ?          0,000    ?          ?        0,709     0,139     classes preparation
+                 0,429    0,028    0,750      0,429    0,545      0,509    0,558     0,427     curriculum
+                 0,000    0,053    0,000      0,000    0,000      -0,081   0,465     0,119     devops concepts
+                 0,600    0,000    1,000      0,600    0,750      0,765    0,668     0,623     environment setup
+                 0,879    0,673    0,453      0,879    0,598      0,232    0,598     0,456     pedagogy
+                 0,364    0,000    1,000      0,364    0,533      0,576    0,789     0,552     tools
+Weighted Avg.    0,518    0,272    ?          0,518    ?          ?        0,624     0,418     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  2  0  0  0  0  3  0 |  a = assessment
+  0  0  0  0  0  7  0 |  b = classes preparation
+  0  0  6  0  0  8  0 |  c = curriculum
+  0  0  1  0  0  9  0 |  d = devops concepts
+  0  0  0  0  3  2  0 |  e = environment setup
+  0  0  1  3  0 29  0 |  f = pedagogy
+  0  0  0  1  0  6  4 |  g = tools
+
