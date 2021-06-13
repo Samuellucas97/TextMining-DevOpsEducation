@@ -44,7 +44,7 @@ do
 			 		$MODEL_SUPERVISED -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 \
 			 		-t1 -1.25 -t2 -1.0 -N $K -A ${DISTANCE_FUNCTION} -I 500 -num-slots 1 -S $SEED \
 					-t "${TRAINING_PATH}${FILE_NAME}.arff" \
-					>& "${OUTPUT_PATH}mlp_${FILE_NAME}_learnig${LEARNING_RATE}_neuro${NUMBER_OF_NEURONIAN}_epochs${EPOCH}_seed_${SEED}.txt" &
+					>& "${OUTPUT_PATH}kmeans_${FILE_NAME}_learnig${LEARNING_RATE}_neuro${NUMBER_OF_NEURONIAN}_epochs${EPOCH}_seed_${SEED}.txt" &
 			done
 		done	
 	fi
